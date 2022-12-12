@@ -1,0 +1,72 @@
+@import './default.less';
+#order {
+    background-color: #12141D;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    .order-header {
+        position: relative;
+        width: 100%;
+        max-width: 1500px;
+        margin: auto;
+        overflow: hidden;
+        background: url(/order/bg.png) no-repeat right top;
+        background-size: auto 413px;
+        height: 410px;
+        h2 {
+            padding-top: 110px;
+            .reward {
+                color: #fff;
+                font-weight: bold;
+                font-size: 50px;
+            }
+            .mine {
+                color: #18E48D;
+                font-weight: bold;
+                font-size: 50px;
+            }
+        }
+        .title {
+            position: absolute;
+            left: 0;
+            bottom: 30px;
+            height: 24px;
+            line-height: 24px;
+            color: #fff;
+            font-size: 24px;
+            img {
+                margin-right: 16px;
+            }
+        }
+    }
+    .order-list {
+        position: relative;
+        width: 100%;
+        max-width: 1500px;
+        margin: auto;
+        overflow: hidden;
+        background: #1E2029;
+        border-radius: 10px;
+        padding: 40px 30px;
+        color: #8F8F94;
+        font-size: 16px;
+        .order-title {
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+        .order-data {
+            margin-bottom: 20px;
+            a {
+                max-width: 220px;
+                display: block;
+                overflow: hidden;
+                font-size: 18px;
+                line-height: 36px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+}
